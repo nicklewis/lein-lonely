@@ -1,6 +1,6 @@
-(defproject lein-lonely "0.1.0"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject lein-lonely "0.1.1"
+  :description "A lein plugin to find unused namespaces"
+  :url "http://github.com/nicklewis/lein-lonely"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
