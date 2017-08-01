@@ -1,14 +1,13 @@
 # clj-lonely
 
-A Clojure library designed to ... well, that part is up to you.
+Find unused namespaces
 
 ## Usage
 
-FIXME
+Add the project to your lein profile:
 
-## License
+```clj
+[lein-lonely "0.1.0"]
+```
 
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Run `lein lonely <namespace> <namespace>` with the main/entrypoint namespaces of your project. Any namespace in `src` that is not referenced recursively by one of those will be printed.
