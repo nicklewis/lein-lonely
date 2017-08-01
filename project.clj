@@ -1,4 +1,4 @@
-(defproject lein-lonely "0.1.1"
+(defproject lein-lonely "0.1.2-SNAPSHOT"
   :description "A lein plugin to find unused namespaces"
   :url "http://github.com/nicklewis/lein-lonely"
   :license {:name "Eclipse Public License"
